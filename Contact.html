@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: azure;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        .social {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .form h2 {
+            text-align: center;
+        }
+
+        .form input,
+        .form textarea {
+            width: 300px;
+            margin: 10px;
+        }
+
+        .form button {
+            width: 100px;
+            margin: 10px;
+        }
+
+        .map {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .map img {
+            width: 500px;
+            height: 500px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="ds.html">Accueil</a></li>
+        <li><a href="Actualité.html">Actualité</a></li>
+        <li><a href="Film.html">Film</a></li>
+        <li><a href="Critiques.html">Critiques</a></li>
+        <li><a href="Tarif.html">Tarifs</a></li>
+        <li><a href="Contact.html">Nous contacter</a></li>
+    </ul>
+    <div class="info">
+        <img src="logoCDC.jpg" alt="Logo du site" class="logo">
+        <div>
+            <p>Mail : aucoucherdusoleil@gmail.com</p>
+            <p>Téléphone : +33(0)7 45 34 05 93</p>
+            <p>Adresse : 121 rue du chemin vert, Aulnoy-Lez-Valenciennes</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/site"><img src="facebook.png" alt="Facebook" class="social"></a>
+            <a href="https://www.instagram.com/site"><img src="intagram.png" alt="Instagram" class="social"></a>
+            <a href="https://www.twitter.com/site"><img src="twiter.png" alt="Twitter" class="social"></a>
+        </div>
+    </div>
+    <div class="form">
+        <h2>ECRIVEZ NOUS</h2>
+        <input type="text" name="nom" placeholder="Votre nom">
+        <input type="email" name="email" placeholder="Votre email">
+        <textarea name="message" placeholder="Votre message" rows="5"></textarea>
+        <button type="submit">Envoyer</button>
+    </div>
+    <div class="map">
+        <!-- <img src="map.png" alt="Carte du club ciné" class="map">
+        <img src="map.jpg" alt="Carte du club ciné" class="map"> -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8566.368417266394!2d3.511382088102968!3d50.333046506084834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c2ed653f031149%3A0x40af13e816476f0!2s59300%20Aulnoy-Lez-Valenciennes!5e0!3m2!1sfr!2sfr!4v1700836964644!5m2!1sfr!2sfr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+
+</html>
